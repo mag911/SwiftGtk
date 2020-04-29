@@ -8,8 +8,8 @@ let package = Package(
         .library(name: "Gtk", targets: ["Gtk"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/rhx/SwiftAtk.git", .branch("master")),
-        .package(url: "https://github.com/rhx/SwiftGdk.git", .branch("master")),
+        .package(url: "https://github.com/mag911/SwiftAtk.git", .branch("master")),
+        .package(url: "https://github.com/mag911/SwiftGdk.git", .branch("master")),
     ],
     targets: [
 	.systemLibrary(name: "CGtk", pkgConfig: "gtk-3.0 gdk-3.0 pangocairo pangoft2 pango gio-unix-2.0 glib-2.0",
